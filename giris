@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+ int c,b=0, sayilar[4];
+
+ for(int i = 0 ; i <4 ; i++){ //sayılarımızı aldık
+    printf("bir sayi giriniz");
+    scanf("%d",&sayilar[i]);
+
+    if (sayilar[i]>b) //en büyük sayıyı bulduk
+        b = sayilar[i];
+
+
+
+ }
+   c = sayilar[0];
+for (int i = 0 ; i<4; i++) {
+
+    if (sayilar[i]< c)
+        c = sayilar[i];
+
+}
+
+
+
+printf("en buyuk sayi %d", b);
+printf("\nen kucuk sayi %d", c);
+
+
+
+
+
+
+    return 0;
+}
+
+                
